@@ -8,8 +8,8 @@ io_out
  );
 //---- Port Declarations ----
 input wb_clk_i;
-input [15:0]io_in;
-output [15:0]io_out;
+ input [7:0]io_in;
+ output [7:0]io_out;
 wire clk ;
 wire rst_n ;
 wire enable ;
@@ -24,7 +24,7 @@ assign rst_n= io_in[0];
 assign enable= io_in[1];
 
 assign road1_out= io_out[2:0];
-assign road2_out= io_out[2:0];
+ assign road2_out= io_out[5:3];
 
 // Counter having 1sec Overflow signal Instantiation
 // ---- For Simulation #(32,40) and For Synthesis #(32,40000000)
