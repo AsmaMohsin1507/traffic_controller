@@ -1,14 +1,13 @@
 // Traffic Controller Top
 module traffic_controller (
-// Inputs
-wb_clk_i,
+// Input
  io_in,
 // Outputs
 io_out
  );
 //---- Port Declarations ----
-input wb_clk_i;
- input [1:0]io_in;
+
+ input [2:0]io_in;
  output [5:0]io_out;
 wire clk ;
 wire rst_n ;
@@ -19,9 +18,9 @@ wire ovflw_1sec ;
 wire [4:0] counter_24 ;
 wire enable_sig ;
 
-assign clk= wb_clk_i;
-assign rst_n= io_in[0];
-assign enable= io_in[1];
+ assign clk= io_in[0];
+ assign rst_n= io_in[1];
+ assign enable= io_in[2];
 
 assign road1_out= io_out[2:0];
  assign road2_out= io_out[5:3];
