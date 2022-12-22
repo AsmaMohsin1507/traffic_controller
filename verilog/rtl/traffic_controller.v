@@ -8,8 +8,8 @@ io_out
  );
 //---- Port Declarations ----
 input wb_clk_i;
- input [7:0]io_in;
- output [7:0]io_out;
+ input [1:0]io_in;
+ output [5:0]io_out;
 wire clk ;
 wire rst_n ;
 wire enable ;
