@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1671691955
+timestamp 1671706566
 << obsli1 >>
 rect 1104 2159 28888 31569
 << obsm1 >>
@@ -332,6 +332,10 @@ rect 18309 2128 18629 31600
 rect 21782 2128 22102 31600
 rect 25255 2128 25575 31600
 rect 28728 2128 29048 31600
+<< obsm4 >>
+rect 17907 24243 18229 30429
+rect 18709 24243 21702 30429
+rect 22182 24243 22389 30429
 << labels >>
 rlabel metal3 s 29200 1912 30000 2032 6 io_in[0]
 port 1 nsew signal input
@@ -581,8 +585,8 @@ port 116 nsew ground bidirectional
 string FIXED_BBOX 0 0 30000 34000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 502686
-string GDS_FILE /home/runner/work/traffic_controller/traffic_controller/openlane/tiny_user_project/runs/22_12_22_06_51/results/signoff/tiny_user_project.magic.gds
-string GDS_START 23768
+string GDS_END 1077996
+string GDS_FILE /home/runner/work/traffic_controller/traffic_controller/openlane/tiny_user_project/runs/22_12_22_10_53/results/signoff/tiny_user_project.magic.gds
+string GDS_START 288988
 << end >>
 

@@ -1165,6 +1165,10 @@ MACRO tiny_user_project
         RECT 4.000 13.960 146.890 14.600 ;
         RECT 4.000 12.560 145.600 13.960 ;
         RECT 4.000 10.715 146.890 12.560 ;
+      LAYER met4 ;
+        RECT 89.535 121.215 91.145 152.145 ;
+        RECT 93.545 121.215 108.510 152.145 ;
+        RECT 110.910 121.215 111.945 152.145 ;
   END
 END tiny_user_project
 END LIBRARY
